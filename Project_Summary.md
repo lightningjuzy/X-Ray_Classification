@@ -6,6 +6,6 @@ This project was initially done as part of the course requirements for CS7641: M
 \
 I have redone this project using OpenCV and Pytorch. The raw images from the '/Data' folder were grayscaled, resized and saved into the '/Data_processed' folder using OpenCV. \
 \
-The actual images can be found on the Kaggle link posted above. They are not included in this repo due to memory constraints. The processed images were done loaded into the Datloader from  Pytorch. \
+The actual images can be found on the Kaggle link posted above. They are not included in this repo due to memory constraints. The processed images were then loaded into the Dataloader from  Pytorch. \
 \
 Transformations were applied to the images to standardize the images and make it efficient for the model to be trained. A simple CNN model was built using the 'nn' module from Pytorch.
